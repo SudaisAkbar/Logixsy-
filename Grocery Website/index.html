@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container min-h-screen bg-[url('./Image.png')] max-w-full bg-center bg-cover px-40 py-5 relative">
+        <div class="nav flex items-center ">
+            <img src="./logo.png" alt="Logo" class="w-40 cursor-pointer ">
+                <ul class="flex-1 text-center">
+                    <li class="list-none inline-block px-5" ><a class="no-underline text-white px-2" href="#">Home</a></li>
+                    <li class="list-none inline-block px-5" ><a class="no-underline text-white px-2" href="#">About</a></li>
+                    <li class="list-none inline-block px-5" ><a class="no-underline text-white px-2" href="#">Features</a></li>
+                    <li class="list-none inline-block px-5" ><a class="no-underline text-white px-2" href="#">Contact</a></li>
+                </ul>
+                <img src="./cart.png" alt="Cart Logo" class="w-8 cursor-pointer ">
+        </div>
+        <div class="text-white mt-48 max-w-xl">
+            <h1 class="text-6xl font-semibold leading-normal">Groceries <br>delivery in <span class="font-light">15 mins</span></h1>
+            <p>Discover fresh produce, pantry staples, and household essentials all in one place. Enjoy convenient online grocery shopping with top-quality products and great prices, delivered right to your door.</p>
+            <div class="mt-10">
+                <a href="#" class="bg-yellow-500 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparent hover:border-yellow-300 hover:text-white hover:border duration-300 border border-transparent">
+                    Order Now
+                </a>
+                <a href="#" class="bg-yellow-500 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparent hover:border-yellow-300 hover:text-white hover:border duration-300 border border-transparent">
+                   Download App <span class="inline-block rotate-90">&#10148</span>
+                </a>
+            </div>          
+        </div>
+        <img src="./grocery-image.png" alt="Men Image" class="w-full xl:w-1/2 xl:absolute bottom-0 right-0 ">
+    </div>
+    
+</body>
+</html>
